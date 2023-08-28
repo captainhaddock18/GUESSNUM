@@ -42,13 +42,13 @@ function check(){
    else if(inp < k){
       let mes = document.getElementById("cornum")
       mes.style.visibility = "visible"
-      mes.innerText = "LOWER THAN THE CORRECT NUMBER, TRY AGAIN!"
+      mes.innerText = "TRY A BIT HIGHER!"
       count = count +1
    }
    else if(inp > k){
     mes = document.getElementById("cornum")
     mes.style.visibility = "visible"
-    mes.innerText = "HIGHER THAN THE CORRECT NUMBER, TRY AGAIN!"
+    mes.innerText = "TRY A BIT LOWER!"
     count = count +1
    }
    
