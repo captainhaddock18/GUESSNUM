@@ -18,24 +18,17 @@ function check(){
    }
    else if(inp == k){
    alert("Congratulations! You're Right!")
-    if(confirm("Do You Want to Play again?") == true){
       mes = document.getElementById("cornum")
-      mes.style.visibility = "hidden";
+      mes.innerText = ''
       a = Math.random()*100
       k = Math.round(a)
       console.log(k)
       count = 0
       document.getElementById('num').value =''
-      count = count +1
-    }
-    else{
-      let th = document.getElementById('thankyou')
-      console.log(th)
-      th.style.visibility = 'visible';
   
     }    
 
-   }  
+   
    /*else if(inp < k  && inp>(k-5)){
     let mes = document.getElementById("cornum")
     mes.innerText = "VERY NEAR TO THE NUMBER !!"
